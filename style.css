@@ -10,7 +10,9 @@
     align-items: center;
     padding: 30px 0 30px 0;
     background: #070707f7;
-    box-shadow: 2px 3px 2px  3px red;
+    box-shadow: 2px 3px 2px   red;
+    border-left: 2px solid gray;
+    border-top: 2px solid gray;
 }
 
 button{
@@ -19,6 +21,7 @@ button{
     color:whitesmoke;
     background-color: black;
     box-shadow: 2px 2px 3px red;
+     ;
 }
 input{
     width: 80%;
