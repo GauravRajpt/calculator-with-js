@@ -7,6 +7,9 @@ Array.from(buttonList).forEach((element)=>{
             console.log(str)
             input.value=eval(str);
         }
+        else if(element.innerHTML=="c"){
+            input.value="";
+        }
         else{
         str= str+ element.innerHTML;
         let input= document.getElementById('input');
