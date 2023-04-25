@@ -21,7 +21,7 @@ button{
     color:whitesmoke;
     background-color: black;
     box-shadow: 2px 2px 3px red;
-     ;
+     cursor: pointer;
 }
 input{
     width: 80%;
@@ -31,5 +31,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    
+}
+#big{
+    width:100px;
 }

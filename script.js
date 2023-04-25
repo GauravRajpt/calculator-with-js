@@ -10,11 +10,14 @@ Array.from(buttonList).forEach((element)=>{
             console.log(str)
             input.value=eval(input.value);
         }
-        else if(element.innerHTML==="c"){
+        else if(element.innerHTML==="DC"){
+            input.value= input.value.substring(0, input.value.length-1)
+        }
+        else if(element.innerHTML==="C"){
             input.value="";
         }
         else{
-        input.value=input.value+ element.innerHTML;
+        input.value =input.value+ element.innerHTML;
         }
     })
 })
